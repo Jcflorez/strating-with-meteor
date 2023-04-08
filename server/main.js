@@ -1,10 +1,7 @@
 import { Meteor } from 'meteor/meteor';
-import { AsambleaColection } from '../imports/api/AsambleaColection';
+import '../imports/api/AsambleaCollection';
+import '../imports/api/AsambleaMethods';
                                                 
-/* function insertLink({ title, url }) {
-  LinksCollection.insert({title, url, createdAt: new Date()});
-}
- */
 
 Meteor.startup(() => {
 

@@ -8,7 +8,7 @@ export const App = () => (
   <div>
     <Navbar/>
     <main>
-      <Image/> 
+{/*       <Image/>  */}
       <AsambleaForm/>
       <AsambleaList/>
     </main>
