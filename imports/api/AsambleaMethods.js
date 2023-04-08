@@ -13,7 +13,7 @@ Meteor.methods({
         return AsambleaCollection.insert({name, handNumber, idSocio, createdAt: new Date()});
     },
     'Asamblea.remove'({idSocio}) {
-        check(idSocio, String);
+        check(idSocio, String   );
         return AsambleaCollection.remove({idSocio});
     }
 })
